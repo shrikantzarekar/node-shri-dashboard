@@ -1,0 +1,41 @@
+.masonry-container {
+	position: relative;
+	width: 100%;
+}
+
+.masonry-container > * {
+	position: absolute;
+	opacity: 0;
+}
+
+.masonry-container > .visible {
+	opacity: 1;
+}
+
+.nr-dashboard-cardpanel {
+    box-sizing: border-box;
+}
+
+.nr-dashboard-cardpanel > p {
+    max-height: 31px;
+    min-height: 31px;
+    margin-left: 12px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.nr-dashboard-cardcontainer {
+	position: relative;
+}
+
+.nr-dashboard-cardcontainer > * {
+	margin: 0 !important;
+	position: absolute;
+	opacity: 0;
+}
+
+.nr-dashboard-cardcontainer > .visible {
+	opacity: 1;
+}

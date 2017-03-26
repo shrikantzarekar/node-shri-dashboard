@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/shrikant/Code/Node/GroundUp/mynewdash/node-red-dashboard',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package.tgz not in flight; packing
+9 verbose correctMkdir /home/shrikant/.npm correctMkdir not in flight; initializing
+10 info lifecycle node-red-dashboard@2.3.9-beta~prepublish: node-red-dashboard@2.3.9-beta
+11 silly lifecycle node-red-dashboard@2.3.9-beta~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package.tgz',
+12 verbose tar pack   '/home/shrikant/Code/Node/GroundUp/mynewdash/node-red-dashboard' ]
+13 verbose tarball /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package.tgz
+14 verbose folder /home/shrikant/Code/Node/GroundUp/mynewdash/node-red-dashboard
+15 verbose addLocalTarball adding from inside cache /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package.tgz
+16 verbose correctMkdir /home/shrikant/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd node-red-dashboard@2.3.9-beta
+18 verbose afterAdd /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package/package.json not in flight; writing
+19 verbose correctMkdir /home/shrikant/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package/package.json written
+21 silly publish { name: 'node-red-dashboard',
+21 silly publish   version: '2.3.9-beta',
+21 silly publish   description: 'A set of dashboard nodes for Node-RED',
+21 silly publish   keywords: [ 'node-red' ],
+21 silly publish   main: 'none',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   contributors:
+21 silly publish    [ { name: 'Andrei Tatar' },
+21 silly publish      { name: 'Dave Conway-Jones' },
+21 silly publish      { name: 'Joe Pavitt' },
+21 silly publish      { name: 'Nick O\'Leary' },
+21 silly publish      { name: 'Dan Cunnington' },
+21 silly publish      { name: 'Laurence Stant' } ],
+21 silly publish   license: 'Apache-2.0',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/node-red/node-red-dashboard.git' },
+21 silly publish   'node-red':
+21 silly publish    { version: '>=0.14.0',
+21 silly publish      nodes:
+21 silly publish       { ui_base: 'nodes/ui_base.js',
+21 silly publish         ui_button: 'nodes/ui_button.js',
+21 silly publish         ui_dropdown: 'nodes/ui_dropdown.js',
+21 silly publish         ui_switch: 'nodes/ui_switch.js',
+21 silly publish         ui_slider: 'nodes/ui_slider.js',
+21 silly publish         ui_numeric: 'nodes/ui_numeric.js',
+21 silly publish         ui_text_input: 'nodes/ui_text_input.js',
+21 silly publish         ui_date_picker: 'nodes/ui_date_picker.js',
+21 silly publish         ui_colour_picker: 'nodes/ui_colour_picker.js',
+21 silly publish         ui_form: 'nodes/ui_form.js',
+21 silly publish         ui_text: 'nodes/ui_text.js',
+21 silly publish         ui_gauge: 'nodes/ui_gauge.js',
+21 silly publish         ui_chart: 'nodes/ui_chart.js',
+21 silly publish         ui_audio: 'nodes/ui_audio.js',
+21 silly publish         ui_toast: 'nodes/ui_toast.js',
+21 silly publish         ui_ui_control: 'nodes/ui_ui_control.js',
+21 silly publish         ui_template: 'nodes/ui_template.js',
+21 silly publish         ui_link: 'nodes/ui_link.js',
+21 silly publish         ui_tab: 'nodes/ui_tab.js',
+21 silly publish         ui_group: 'nodes/ui_group.js' } },
+21 silly publish   dependencies: { 'serve-static': '^1.11.2', 'socket.io': '^1.7.3' },
+21 silly publish   devDependencies:
+21 silly publish    { angular: '~1.5.11',
+21 silly publish      'angular-animate': '~1.5.11',
+21 silly publish      'angular-aria': '~1.5.11',
+21 silly publish      'angular-chart.js': '^1.0.3',
+21 silly publish      'angularjs-color-picker': '^2.7.2',
+21 silly publish      'angular-material': '^1.1.1',
+21 silly publish      'angular-material-icons': '^0.7.1',
+21 silly publish      'angular-messages': '~1.5.11',
+21 silly publish      'angular-mocks': '~1.5.11',
+21 silly publish      'angular-route': '~1.5.11',
+21 silly publish      'angular-sanitize': '~1.5.11',
+21 silly publish      'angular-touch': '~1.5.11',
+21 silly publish      'chart.js': '~2.3.0',
+21 silly publish      d3: '^3.5.17',
+21 silly publish      'font-awesome': '^4.7.0',
+21 silly publish      gulp: '^3.9.1',
+21 silly publish      'gulp-angular-templatecache': '^2.0.0',
+21 silly publish      'gulp-clean-css': '^2.4.0',
+21 silly publish      'gulp-concat': '^2.6.1',
+21 silly publish      'gulp-header': '^1.8.8',
+21 silly publish      'gulp-html-replace': '^1.6.2',
+21 silly publish      'gulp-html-src': '^1.0.0',
+21 silly publish      'gulp-htmlmin': '^3.0.0',
+21 silly publish      'gulp-if': '^2.0.2',
+21 silly publish      'gulp-insert-lines': '0.0.4',
+21 silly publish      'gulp-jscs': '^4.0.0',
+21 silly publish      'gulp-jshint': '^2.0.4',
+21 silly publish      'gulp-manifest': '^0.1.1',
+21 silly publish      'gulp-remove-html': '^1.3.0',
+21 silly publish      'gulp-resources': '^0.5.0',
+21 silly publish      'gulp-uglify': '^2.0.1',
+21 silly publish      'gulp-util': '^3.0.8',
+21 silly publish      jquery: '^2.2.4',
+21 silly publish      jshint: '^2.9.4',
+21 silly publish      justgage: '^1.2.2',
+21 silly publish      less: '^2.7.2',
+21 silly publish      moment: '^2.17.1',
+21 silly publish      'sprintf-js': '^1.0.3',
+21 silly publish      streamqueue: '^1.1.1',
+21 silly publish      'svg-morpheus': '^0.3.0',
+21 silly publish      tinycolor2: '^1.4.1' },
+21 silly publish   readme: '# node-red-dashboard\n\nThis module provides a set of nodes in Node-RED to quickly create a live data\ndashboard.\n\n<img src="http://nodered.org/images/dashboarde.png"/>\n\nIt is a continuation of the [node-red-contrib-ui](https://www.npmjs.com/package/node-red-contrib-ui)\nmodule created by Andrei Tatar.\n\n## Pre-requisites\n\nNode-RED-Dashboard requires Node-RED version 0.14 or more recent.\n\n## Install\n\nTo install the stable version run the following command in your Node-RED user directory (typically `~/.node-red`):\n\n    npm i node-red-dashboard\n\nOpen your Node-RED instance and you should have UI nodes available in the palette and a new `dashboard` tab in the\nright side panel. The UI interface is available at <http://localhost:1880/ui> (if the default settings are used).\n\nIf you want to try the latest version from github, you can install it by\n\n    npm i node-red/node-red-dashboard\n\n#### Migration from node-red-contrib-ui\n\nThese nodes will replace the contrib-ui versions. node-red-contrib-ui\n**MUST** be uninstalled before installing node-red-dashboard.\n\n    cd ~/.node-red\n    npm uninstall node-red-contrib-ui\n\nIn addition - some functionality is not exactly equivalent. There are breaking changes that will require some re-configuration.\n\n## Features\n\n#### Dashboard sidebar\n\nThe widget layout is now managed by a `dashboard` tab in the sidebar of the Node-RED editor.\n\n##### Layout\n\n - **Tabs** - From here you can re-order the tabs, groups and widgets, and add and edit their properties.\n\n - **Links** - are no longer added as nodes in the workspace - they are managed in the\ndashboard sidebar. They can also be opened in an iframe - if allowed by the target page.\n\n##### Theme\n\n - **Style** - the theme of the UI is set in the dashboard sidebar. You can select a default Light, Dark or Custom Theme. You\ncannot have different themes for each tab.\n\n##### Site\n\n - **Title** - the `title` of the UI page can be set.\n\n - **Options** - lets you optionally hide the title bar, and allow swiping sideways between tabs on a touch screen.\n\n - **Sizes** - you can set the basic geometry of the grid layout in pixels. The **width** and **height** of widgets can be set, as can the width of *groups*. These are all specified in units of approximately 50 pixels.\n\n\n#### Widgets\n\nThe default width of a group is 6 units as it was in contrib-ui ( &approx;300 pixels ). Setting a widget to `auto` will fill the available\nwidth of the group. It is still advisable to use multiple groups if you can, rather than one big group, so that the page can dynamically resize on smaller screens.\n\nGroup labels are optional.\n\nAny widget can be disabled by passing in a `msg.enabled` property set to `false;`. *Note:* this doesn\'t stop the widget receiving messages but does stop inputs being active and does re-style the widget.\n\n  - **Audio out** - a widget that will let you play audio (wav or mp3) or send Text to Speech (TTS) to the client.\n  - **Button** - the icon can be set using either Material or fa-icons - the colour and background colour may also be set. If the widget is sized to 1 wide the icon has precedence.\n  - **Chart** - has both line, bar and pie chart modes. Also the X-Axis labels can be customised using a date formatter string. Uses the **Chart.js** library.\n  - **Colour Picker** - a colour picker widget.\n  - **Date Picker** - a date picker widget. The displayed Date format can be specified in the Site tab using moment.js formatting.\n  - **Dropdown** - a dropdown select widget has been added. Multiple label, value pairs can be specified. The choices can also be set via `msg.options` containing an array of objects. If just text then the value will be the same as the label, otherwise you can specify both by using an object of "label":"value" pairs :\n\n        [ "Choice 1", "Choice 2", {"Choice 3": 3} ]\n\n  Setting `msg.payload` will pre-select the value in the dropdown.\n  - **Form** - a widget that can be composed of several sub-widgets. When submitted all values are submitted as a single message.\n  - **Gauge** - has 4 modes - *standard* (simple gauge), *donut* (complete 360&deg;), *compass*, and *wave*. You can also specify the colour range of the standard and donut gauges.\n  - **Notification** - creates alerts to the user - can either be a toast popup, or a dismissable alert box. The alert may be targeted to a single user.\n  - **Numeric** - a Numeric input widget with up/down buttons.\n  - **Slider** - a simple horizontal slider, with variable step size.\n  - **Switch** - can also set two icons and/or colours depending on state.\n  - **Template** - the template node allows the user to specify and create their own widgets within the framework using HTML, Javascript. This is an Angular.js widget. You may also use this to override the built in CSS styles.\n  - **Text** - A read only widget, the layout of the `label`, and `value` can be configured.\n  - **Text input** - text input box, with optional label, can also support password, email and colour modes.\n  - **UI-Control** - allows some dynamic control of the dashboard. Sending a `msg.payload` of the tab number (from 0) or name will switch to that tab. Outputs a `msg.payload` for every browser *connection* and *loss*, that can be used to trigger other actions.\n\n**Tip:** The *Text* widget will accept html - so you can use it together with the *fa-icons* we\nalready use to create indicator type widgets.\n\n## Securing the Dashboard\n\nYou can use the `httpNodeAuth` property in your Node-RED settings.js file to secure the Dashboard as it is\ncreated the same way as other HTTP nodes are. The details can be found at the bottom of this page in the\ndocs <http://nodered.org/docs/security>\n\n## Multiple Users\n\nThis Dashboard does NOT support multiple individual users. It is a view of the status of the underlying\nNode-RED flow, which itself is single user. If the state of the flow changes then all clients will get\nnotified of that change.\n\n## Discussions and suggestions\n\nUse the Node-RED google group: <https://groups.google.com/forum/#!forum/node-red>\nor the Dashboard-ui channel in <a href="http://nodered.org/slack/">Slack</a>\n\nThe current work in progress list is shown in the\n<a href="https://github.com/node-red/node-red-dashboard/projects/1" target="_blank"> Github Project</a>.\n\n## Contributing\n\nBefore raising a pull-request, please read our\n[contributing guide](https://github.com/node-red/node-red-dashboard/blob/master/CONTRIBUTING.md).\n\nThis project adheres to the [Contributor Covenant 1.4](http://contributor-covenant.org/version/1/4/).\nBy participating, you are expected to uphold this code. Please report unacceptable\nbehavior to any of the [project\'s core team](https://github.com/orgs/node-red/teams/core).\n\n## Developers\n\n```\ncd ~\\.node-red\\node_modules\ngit clone https://github.com/node-red/node-red-dashboard.git\ncd node-red-dashboard\nnpm install\n```\nThe plugin uses the ```dist``` folder if it exists and contains an ```index.html``` file. Make sure to delete it if you want to use the non-minified version.\nAfter changing the front-end code in the src folder, use ```gulp``` to update the minified files and update the *appcache* manifest.\n\n    gulp\n\nWe also have suggested *lint* and *js* styles that can be checked with:\n\n    gulp lint\n    gulp jscs\n\nIf submitting a Pull Request (PR) please do NOT include the minified `/dist` files.\n\nThank you.\n\n<img src="http://nodered.org/images/dashboardl.png"/>\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '8c2f1f3fa7f1a8fc3dac560be31a6792d49930d7',
+21 silly publish   bugs: { url: 'https://github.com/node-red/node-red-dashboard/issues' },
+21 silly publish   homepage: 'https://github.com/node-red/node-red-dashboard#readme',
+21 silly publish   _id: 'node-red-dashboard@2.3.9-beta',
+21 silly publish   _shasum: 'f3bb4a4c38642dd6ff74a4607aefe30ed0511726',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name node-red-dashboard
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'node-red-dashboard',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'node-red-dashboard',
+26 silly mapToRegistry   name: 'node-red-dashboard',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/node-red-dashboard
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/shrikant/.npm/node-red-dashboard/2.3.9-beta/package.tgz
+30 verbose request uri https://registry.npmjs.org/node-red-dashboard
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 12:00:54 AM
+33 verbose request using bearer token for auth
+34 verbose request id a93b2a35c5a8b79e
+35 http request PUT https://registry.npmjs.org/node-red-dashboard
+36 http 403 https://registry.npmjs.org/node-red-dashboard
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '112',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sun, 26 Mar 2017 18:30:57 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-lhr6336-LHR',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1490553055.423590,VS0,VE1931',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/shrikant/.npm/registry.npmjs.org/node-red-dashboard on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "node-red-dashboard". Are you logged in as the correct user? : node-red-dashboard
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid node-red-dashboard
+43 verbose cwd /home/shrikant/Code/Node/GroundUp/mynewdash/node-red-dashboard
+44 error Linux 4.4.0-59-generic
+45 error argv "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+46 error node v6.9.1
+47 error npm  v3.10.8
+48 error code E403
+49 error you do not have permission to publish "node-red-dashboard". Are you logged in as the correct user? : node-red-dashboard
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
