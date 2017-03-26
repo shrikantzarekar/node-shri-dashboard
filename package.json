@@ -1,6 +1,6 @@
 {
 	"name": "node-shri-dashboard",
-	"version": "2.3.9-beta",
+	"version": "2.3.11-beta",
 	"description": "A set of dashboard nodes for Node-RED",
 	"keywords": [
 		"node-red"
@@ -90,3 +90,4 @@
     "tinycolor2": "^1.4.1"
   }
 }
+cd  

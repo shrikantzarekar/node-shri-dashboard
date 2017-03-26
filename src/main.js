@@ -31,7 +31,7 @@ app.config(['$mdThemingProvider', '$compileProvider', '$mdDateLocaleProvider',
     }
 ]);
 
-app.controller('MainController', ['$mdSidenav', '$window', 'UiEvents', '$location', '$document', '$mdToast', '$mdDialog', '$rootScope', '$sce', '$timeout', '$scope',
+app.controller('MainController','$state', '$http', 'Auth', ['$mdSidenav', '$window', 'UiEvents', '$location', '$document', '$mdToast', '$mdDialog', '$rootScope', '$sce', '$timeout', '$scope',
        
     
     function ($state, $http, Auth, $mdSidenav, $window, events, $location, $document, $mdToast, $mdDialog, $rootScope, $sce, $timeout, $scope) {
